@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WhereGPS</string>
+    <string name="gps_loc">Your GPS Location</string>
+    <string name="action_settings">Settings</string>
+    <string name="gps_locbnt"> Get Current GPS LOC </string>
+    <string name="et_field"></string>
+    
+    <string name="lat_gps">Latitude:</string>
+    <string name="lon_gps">Longitude:</string>
+    
+    <string name="SendLoc">Send GPS Location</string>
+    
+    <string name="action_view">Map Views</string>
+    <string name="action_terrain">Terrain</string>
+    <string name="action_normal">Normal</string>
+    <string name="action_hybrid">Hybrid</string>
+    <string name="action_satellite">Satellite</string>
+    <string name="action_keys">Find Keys</string>
+    <string name="action_keyss">Find Keys</string>
+    
+    <string name="ShowMap">View On Map</string>
+    <string name="database">Entries in Database</string>
+    <string name="SPop">Close</string>
+    
+    <string name="action_Item">Find Item</string>
+    <string name="action_cDB">Entries in Database</string>
+    
+    <string name="Name_gps">Find Item</string>
+    <string name="gps_NewName">Item Name</string>
+
+</resources>

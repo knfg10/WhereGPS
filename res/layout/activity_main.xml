@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009900"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="uni.brighton.gpstracker.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/gps_loc" />
+		
+    
+    <Button
+        android:id="@+id/bnt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/gps_locbnt"
+        android:textColor="#FFFFFF" />
+    
+    <TextView
+        android:id="@+id/Name_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/bnt1"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/gps_NewName" />
+
+    <EditText
+        android:id="@+id/GPSName"
+        style="@style/textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name_gps"
+        android:layout_marginTop="10dp"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/Lat_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/GPSName"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/lat_gps" />
+
+    <EditText
+        android:id="@+id/GPSLat"
+        style="@style/textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lat_gps"
+        android:layout_marginTop="10dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/Lon_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Lat_gps"
+        android:layout_below="@+id/GPSLat"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/lon_gps" />
+    
+    <EditText
+        android:id="@+id/GPSLon"
+        style="@style/textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lon_gps"
+        android:layout_marginTop="10dp"
+        android:ems="10" />
+    
+    <Button
+        android:id="@+id/bnt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GPSLon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:text="@string/SendLoc"
+        android:textColor="#FFFFFF" />
+    
+     <Button
+        android:id="@+id/bnt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bnt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/ShowMap"
+        android:textColor="#FFFFFF" />
+
+<!--     <CheckBox
+        android:id="@+id/SendGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GPSLon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/SendLoc"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" /> -->
+   
+</RelativeLayout>
+
